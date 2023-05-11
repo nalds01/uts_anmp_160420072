@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/itemDonasiList">
+
+    <fragment
+        android:id="@+id/itemDonasiList"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.DonasiListFragment"
+        android:label="fragment_donasi_list"
+        tools:layout="@layout/fragment_donasi_list" >
+        <action
+            android:id="@+id/actionDonasiDetail"
+            app:destination="@id/donasiDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemDonasiSayaList"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.DonasiSayaListFragment"
+        android:label="fragment_donasi_saya_list"
+        tools:layout="@layout/fragment_donasi_saya_list" >
+        <action
+            android:id="@+id/actionDonasiSayaDetail"
+            app:destination="@id/donasiSayaDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemAjukanDonasi"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.AjukanDonasiListFragment"
+        android:label="fragment_ajukan_donasi_list"
+        tools:layout="@layout/fragment_ajukan_donasi_list" >
+        <action
+            android:id="@+id/actionAjukanTUnggu"
+            app:destination="@id/ajukanDonasiTungguFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/donasiDetailFragment"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.DonasiDetailFragment"
+        android:label="fragment_donasi_detail"
+        tools:layout="@layout/fragment_donasi_detail" >
+        <argument
+            android:name="donasiID"
+            app:argType="string" />
+        <action
+            android:id="@+id/actionDonasiSekarang"
+            app:destination="@id/donasiSekarangFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/donasiSekarangFragment"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.DonasiSekarangFragment"
+        android:label="fragment_donasi_sekarang"
+        tools:layout="@layout/fragment_donasi_sekarang" >
+        <action
+            android:id="@+id/actionDonasiThx"
+            app:destination="@id/donasiTerimaKasihFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/donasiTerimaKasihFragment"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.DonasiTerimaKasihFragment"
+        android:label="fragment_donasi_terima_kasih"
+        tools:layout="@layout/fragment_donasi_terima_kasih" />
+    <fragment
+        android:id="@+id/ajukanDonasiTungguFragment"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.AjukanDonasiTungguFragment"
+        android:label="fragment_ajukan_donasi_tunggu"
+        tools:layout="@layout/fragment_ajukan_donasi_tunggu" />
+    <fragment
+        android:id="@+id/donasiSayaDetailFragment"
+        android:name="id.ac.ubaya.informatika.satujiwa_nald.view.DonasiSayaDetailFragment"
+        android:label="fragment_donasi_saya_detail"
+        tools:layout="@layout/fragment_donasi_saya_detail" >
+        <argument android:name="donasiSayaID" />
+    </fragment>
+</navigation>

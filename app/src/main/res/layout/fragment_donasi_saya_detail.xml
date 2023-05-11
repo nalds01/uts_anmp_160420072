@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DonasiSayaDetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgFotoSaya"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txtNamaSaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Bantu Ronald ANMP"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imgFotoSaya"
+            app:layout_constraintStart_toStartOf="@+id/imgFotoSaya"
+            app:layout_constraintTop_toBottomOf="@+id/imgFotoSaya" />
+
+        <TextView
+            android:id="@+id/txtYayasanSaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Yayasan"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/imgFotoSaya"
+            app:layout_constraintStart_toStartOf="@+id/imgFotoSaya"
+            app:layout_constraintTop_toBottomOf="@+id/txtNamaSaya" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Donasi Saya :"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/imgFotoSaya"
+            app:layout_constraintStart_toStartOf="@+id/imgFotoSaya"
+            app:layout_constraintTop_toBottomOf="@+id/txtYayasanSaya" />
+
+        <TextView
+            android:id="@+id/txtSumbanganSaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

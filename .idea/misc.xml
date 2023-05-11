@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/activity_main.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/bottom_menu.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/donasi_list_item.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/donasisaya_list_item.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_ajukan_donasi_list.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_ajukan_donasi_tunggu.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_donasi_detail.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_donasi_list.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_donasi_saya_detail.xml" value="0.33" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_donasi_saya_list.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_donasi_sekarang.xml" value="0.16945288753799392" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/layout/fragment_donasi_terima_kasih.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/drons/AndroidStudioProjects/SatuJiwa_Nald/app/src/main/res/menu/bottom_menu.xml" value="0.29743589743589743" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

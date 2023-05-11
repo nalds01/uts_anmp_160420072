@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DonasiSekarangFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="50dp"
+            android:text="Rp. 5000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Rp.10.000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btn5"
+            app:layout_constraintStart_toStartOf="@+id/btn5"
+            app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Rp.20.000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btn10"
+            app:layout_constraintStart_toStartOf="@+id/btn10"
+            app:layout_constraintTop_toBottomOf="@+id/btn10" />
+
+        <Button
+            android:id="@+id/btn50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Rp. 50.000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/btn20"
+            app:layout_constraintStart_toStartOf="@+id/btn20"
+            app:layout_constraintTop_toBottomOf="@+id/btn20" />
+
+        <EditText
+            android:id="@+id/editTextDonasi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="atau masukkan jumlah donasi anda"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="@+id/btn50"
+            app:layout_constraintStart_toStartOf="@+id/btn50"
+            app:layout_constraintTop_toBottomOf="@+id/btn50" />
+
+        <Button
+            android:id="@+id/btnKirimDonasi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kirim Donasi"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextDonasi"
+            app:layout_constraintStart_toStartOf="@+id/editTextDonasi"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDonasi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemDonasiList"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="Donasi" />
+    <item
+        android:id="@+id/itemDonasiSayaList"
+        android:icon="@drawable/ic_baseline_self_improvement_24"
+        android:title="Donasi Saya" />
+    <item
+        android:id="@+id/itemAjukanDonasi"
+        android:icon="@drawable/ic_baseline_back_hand_24"
+        android:title="AjukanDonasi" />
+</menu>
